@@ -1,20 +1,20 @@
 {
     "manifest_version": 2,
-    "name": "NixOS Packages Search Engine",
-    "description": "Adds NixOS packages search engine",
+    "name": "Home Manager Options Search Engine",
+    "description": "Adds Home Manager options search engine",
     "version": "1.0",
-    "author": "Wainaina Gichuhi",
-    "homepage_url": "https://github.com/pcf26536/firefox-nixpkgs-extension",
+    "author": "Liam Wood-Baker",
+    "homepage_url": "https://github.com/liamwb/firefox-home-manager-options-extension",
     "developer": {
-      "name": "Wainaina Gichuhi",
-      "url": "https://github.com/pcf26536"
+      "name": "Liam Wood-Baker",
+      "url": "https://github.com/liamwb"
     },
     "chrome_settings_overrides": {
       "search_provider": {
-        "name": "NixOS Packages",
-        "search_url":"https://search.nixos.org/packages?query={searchTerms}",
-        "keyword": "@nixpkgs",
-        "favicon_url": "https://nixos.org/favicon.ico",
+        "name": "Home-Manager Options",
+        "search_url":"https://home-manager-options.extranix.com/?query={searchTerms}",
+        "keyword": "@hm-opts",
+        "favicon_url": "https://home-manager-options.extranix.com/favicon.ico",
         "is_default": false,
         "encoding": "UTF-8"
       }

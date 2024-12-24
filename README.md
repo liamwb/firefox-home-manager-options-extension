@@ -1,7 +1,9 @@
 # Firefox NixOS Packages Extension/Add-on
-Adds NixOS packages search engine to Firefox omnibox.
+Fork of https://github.com/pcf26536/firefox-nixpkgs-extension
 
-In the address bar, just type `@nixpkgs` then at least a single space character followed by the search query.
+Adds Home-Manager options search engine to Firefox omnibox.
+
+In the address bar, just type `@hm-opts` then at least a single space character followed by the search query.
 
 ## Screenshot
 
