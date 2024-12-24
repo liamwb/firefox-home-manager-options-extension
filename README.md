@@ -7,4 +7,4 @@ In the address bar, just type `@hm-opts` then at least a single space character 
 
 ## Screenshot
 
-![@nixpkgs keyword](./screenshot.png)
+![@hm-opts keyword](./screenshot.png)
